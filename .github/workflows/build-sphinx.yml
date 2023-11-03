@@ -1,0 +1,52 @@
+name: build-sphinx-to-gh-pages
+
+env:
+  GITHUB_ACTOR: BackofenLab
+  GITHUB_REPOSITORY: BackofenLab/RBPBench
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build_sphinx_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get prerequisites and clone repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -x
+          sudo apt-get update
+          sudo apt-get install -y git
+          git clone "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+        shell: bash
+
+      - name: Run build script for Sphinx-based GitHub Pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: "scripts/builddocs.sh"
+        shell: bash
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          # Upload entire repository
+          path: 'docs/'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
