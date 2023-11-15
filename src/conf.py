@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'RBPBench'
-copyright = '2023, Michael Uhl'
+copyright = '2023, BackofenLab'
 author = 'Michael Uhl'
 
 # The full version, including alpha/beta/rc tags
