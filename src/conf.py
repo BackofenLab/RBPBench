@@ -63,3 +63,4 @@ html_css_files = ["custom.css"]
 
 html_logo = "assets/images/logo.png"
 html_theme_options = {'logo_only': True, 'nosidebar': True}
+html_title = "RBPBench"
