@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'RBPBench'
-copyright = '2023, BackofenLab'
+copyright = '2023, BackofenLab, University of Freiburg'
 author = 'Michael Uhl'
 
 # The full version, including alpha/beta/rc tags
@@ -63,4 +63,4 @@ html_css_files = ["custom.css"]
 
 html_logo = "assets/images/logo.png"
 html_theme_options = {'logo_only': True, 'nosidebar': True}
-html_title = "RBPBench"
+html_title = "Welcome Page"
