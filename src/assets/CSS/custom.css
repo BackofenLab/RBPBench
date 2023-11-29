@@ -2,6 +2,6 @@
     width: 90%;  /* Adjust this value as needed */
 }
 
-.body {
-    max-width: 900px;  /* Adjust this value as needed */
+div.body {
+    max-width: 1000px;  /* Adjust this value as needed */
 }
