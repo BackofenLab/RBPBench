@@ -17,7 +17,7 @@ RBPBench [GitHub repository](https://github.com/michauhl/RBPBench)
 
 
 ![RBPBench example visualizations](assets/images/rbpbench_visualization_examples.png)
-<span style="font-size: 80%;">
+<span style="font-size: 90%;">
 **Figure**: Some example visualizations produced by RBPBench. 
 **a**: RBP binding motif co-occurrence heat map. 
 **b**: What RBP binding motif combinations appear in the data. 
