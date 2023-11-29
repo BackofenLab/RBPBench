@@ -10,7 +10,17 @@ caller methods as well as comparisons across cell types and CLIP-seq protocols.
 
 RBPBench [Webserver on Galaxy](https://usegalaxy.eu/)
 
-RBPBench [Galaxy Tutorial](https://usegalaxy.eu/)
+RBPBench [Webserver Tutorial](https://usegalaxy.eu/)
 
 RBPBench [GitHub repository](https://github.com/michauhl/RBPBench)
 
+
+
+![RBPBench example visualizations](assets/images/rbpbench_visualization_examples.png)
+**Figure**: Some example visualizations produced by RBPBench. 
+**a**: RBP binding motif co-occurrence heat map. 
+**b**: What RBP binding motif combinations appear in the data. 
+**c**: Motif distances in the data relative to an RBP of interest. 
+**d**: To which region types RBPs preferentially bind to. 
+**e**: Comparing CLIP-seq peak calling methods. 
+**f**: Comparing experimental conditions.
