@@ -11,6 +11,7 @@ caller methods as well as comparisons across cell types and CLIP-seq protocols.
 :maxdepth: 1
 
 docs/webserver_tutorial.md
+docs/motif_database.md
 docs/documentation.md
 docs/faq.md
 ```
