@@ -1,6 +1,6 @@
 # Motif database
 
-The RBPs and motifs available in RBPBench are based on the curated list of human RBP binding motifs from [catRAPID omics](https://service.tartaglialab.com/page/catrapid_omics2_group) database. At present RBPBench hosts 605 RBP binding motifs from 259 RBPs. Optionally, the user can add own motifs (user motifs) to the search, or define a custom motif database.
+The RBPs and motifs available in RBPBench are based on the curated list of human RBP binding motifs from [catRAPID omics](https://service.tartaglialab.com/page/catrapid_omics2_group) database. At present RBPBench hosts 605 RBP binding motifs from 259 RBPs, including 604 MEME/DREME XML based sequence motifs and one covariance model based structure motif. Optionally, the user can add own motifs (user motifs) to the search, or define a custom motif database.
 The list of current database RBPs and number of motifs per RBP are given below:
 
 |  RBP | Number of motifs|
