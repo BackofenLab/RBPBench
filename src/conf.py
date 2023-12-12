@@ -57,10 +57,43 @@ html_theme = "alabaster"
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 
+def setup(app):
+    app.add_css_file('my_theme.css')
+
 # Create custom css for the webpage
 html_static_path = ["assets/CSS", "assets/images"]
 html_css_files = ["custom.css"]
 
-html_logo = "assets/images/logo.png"
-html_theme_options = {'logo_only': True, 'nosidebar': True}
-html_title = "Welcome Page"
+
+
+html_sidebars = {
+    '**': [
+        # 'about.html',
+        'navigation.html',
+        'relations.html',  # Optionally include this if you want "next" and "previous" links
+        # 'searchbox.html'  # This line is commented out or removed to exclude the search box
+    ]
+}
+
+
+# html_sidebars = {
+#     '**': [
+#         #'custom_sidebar.html',  # Your custom template
+#         'navigation.html',
+#         #'searchbox.html',
+#         # Add other sidebar elements as needed
+#     ]
+# }
+
+
+html_logo = "assets/images/some_logo.png"
+
+html_theme_options = {
+
+    #'logo_only': False, 
+    'nosidebar': False,
+    #'show_relbar_bottom': True,
+    'sidebar_width': '225px',
+    #'sidebar_depth': 2,
+}
+html_title = "RBPBench Website"
