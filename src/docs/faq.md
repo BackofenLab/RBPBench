@@ -1,7 +1,7 @@
 # FAQ
 
 
-**Where can I get the standalone version of RBPBench?**
+**Where can I get the stand-alone version of RBPBench?**
 
 For the Linux command line version of RBPBench on which the webserver version is based on, 
 please visit the RBPBench [GitHub repository](https://github.com/michauhl/RBPBench).
