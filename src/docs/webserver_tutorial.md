@@ -90,7 +90,8 @@ for motif search (*Select RBPs for motif search*).
 
 #### PUM1 example
 
-In the first example, we select `PUM1.k562_eclip.clipper_idr.bed` from the history as *Genomic regions BED file*, 
+In the first example, we select eCLIP peak regions for the RBP PUM1 (`PUM1.k562_eclip.clipper_idr.bed`) 
+from the history as *Genomic regions BED file*, 
 the built-in human genome hg38 as reference genome (*Select built-in genome sequence* -> *Human Dec. 2013 (GRCh38/hg38) (hg38)*), 
 and for search (*Select RBPs*) the following RBPs: `PUM1`, `PUM2`, `RBFOX2`.
 Moreover, to add genomic region annotations, we go to *HTML report options*
@@ -128,7 +129,7 @@ containing the genomic region annotations for each input region.
 
 #### SLBP example
 
-In the second example, we select `SLBP.k562_eclip.clipper_idr.bed`, again the built-in hg38 genome, 
+In the second example, we select eCLIP peak regions for the RBP SLBP (`SLBP.k562_eclip.clipper_idr.bed`), again the built-in hg38 genome, 
 and choose *Select RBPs for motif search* -> *Select all 259 RBPs* to search with all database RBPs. 
 Also, we would like to output 
 the selected RBP motifs as sequence logos into a separate HTML file (*Output options* -> *Plot RBP motifs?*).
