@@ -47,3 +47,10 @@ div.bodywrapper {
     margin-left: 20px;
 
 }
+
+
+/* table size */
+table {
+    font-size: 14px; 
+    padding: 5px;
+  }
