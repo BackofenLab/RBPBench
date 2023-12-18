@@ -76,7 +76,7 @@ and click on the *Import this history* button (upper left). This will open the h
 
 For this tutorial, we keep the history name 'RBPBench Webserver Tutorial' and 'Copy only active, non-deleted datasets'.
 Click *Copy History* to import the data into our new history. Return to the RBPBench tool mask by clicking 
-again on the [webserver link](http://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/rbpbench/rbpbench/0.8+galaxy0) or by typing 'rbpbench' into the *search tools* field and 
+again on the [webserver link](https://usegalaxy.eu/root?tool_id=toolshed.g2.bx.psu.edu/repos/rnateam/rbpbench/rbpbench/0.8.1+galaxy0) or by typing 'rbpbench' into the *search tools* field and 
 select RBPBench.
 
 
