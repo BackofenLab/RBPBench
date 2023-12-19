@@ -175,7 +175,7 @@ For 1) we set different method IDs (`dewseq_w100_s5`, `clipper_idr`, `clipper_re
 For 2) we set different data IDs (`hepg2_eclip`, `k562_eclip`), while keeping the method ID (`clipper_idr`) and RBP (`RBFOX2`) identical.
 
 In *Compare different search results* mode, we thus select the two output files 
-(RBP + motif hit statistics) from the previous *data collection input* run 
+(RBP + motif hit statistics table files) from the previous *data collection input* run 
 (press control + select the table files in the *Motif search results* window).
 Once finished, we can inspect the HTML report file (*Comparison report HTML file*) to see the comparison results.
 We note that the `dewseq_w100_s5` has the most motif hits per 1000 nt called peak region.
