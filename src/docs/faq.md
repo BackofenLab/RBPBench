@@ -11,7 +11,7 @@ a comprehensive documentation.
 
 **What organisms are supported?**
 
-Currently the database contains exclusively human RBP binding motifs. However, RBPBench is not restricted to human datasets, as the user can supply any genome file and define a custom motif database, or add additional motifs to search with the present database motifs.
+Currently the database contains exclusively human RBP binding motifs. However, RBPBench is not restricted to human datasets, as the user can supply any genome file and define a custom motif database, or add additional motifs to search with the present database motifs. If you have motifs that you would like to have included, feel free to contact us (e.g., by opening up a new issue on [GitHub](https://github.com/michauhl/RBPBench/issues)).
 
 
 **Where to send bug reports and feature requests?**
