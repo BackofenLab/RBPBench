@@ -9,6 +9,11 @@ There you can also detailed installation instructions, as well as usage examples
 a comprehensive documentation.
 
 
+**What organisms are supported?**
+
+Currently the database contains exclusively human RBP binding motifs. However, RBPBench is not restricted to human datasets, as the user can supply any genome file and define a custom motif database, or add additional motifs to search with the present database motifs.
+
+
 **Where to send bug reports and feature requests?**
 
 You can either open up a new issue in the RBPBench [GitHub repository](https://github.com/michauhl/RBPBench/issues) 

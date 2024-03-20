@@ -5,9 +5,7 @@ using a comprehensive collection of known RNA-binding protein (RBP) binding moti
 RBPBench can be used for a variety of purposes, from RBP motif search (database or 
 user-supplied RBPs) in genomic regions, over motif co-occurrence analysis, 
 to benchmarking CLIP-seq peak caller methods as well as comparisons across 
-cell types and CLIP-seq protocols. **Access to the RBPBench webserver is free 
-to every users, including commercial users. The webserver uses a session cookie
-to refer to the user data.**
+cell types and CLIP-seq protocols.
 
 ```{toctree}
 :hidden:
@@ -23,7 +21,7 @@ docs/faq.md
 
 [Webserver Tutorial](docs/webserver_tutorial.md)
 
-[GitHub repository](https://github.com/michauhl/RBPBench)
+[Command line version](https://github.com/michauhl/RBPBench)
 
 
 ![RBPBench example visualizations](assets/images/rbpbench_visualization_examples.png)
